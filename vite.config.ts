@@ -11,9 +11,7 @@ export default defineConfig(({ mode }) => {
   const emitSourcemaps = mode === "development";
 
   return {
-    base: process.env.FIGMA_PUBLIC_URL
-      ? `${process.env.FIGMA_PUBLIC_URL}/`
-      : "/",
+    base: "/rajdip-portfolio/",
     build: {
       sourcemap: emitSourcemaps ? "inline" : false,
       minify: !emitSourcemaps,
@@ -32,7 +30,7 @@ export default defineConfig(({ mode }) => {
       },
     },
     server: {
-      host: "0.0.0.0",
+      host: "localhost",
       port: 5173,
       strictPort: true,
       watch: { ignored: ["**/.figma/**"] },

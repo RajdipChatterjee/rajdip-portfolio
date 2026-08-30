@@ -1,0 +1,10 @@
+{
+  "description": "Showcases a software engineer's professional experience, projects, and technical expertise with a clean, minimalist portfolio tailored for top-tier recruiters.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
